@@ -1,7 +1,7 @@
 const { Router } = require('express');
 const { Country, Activity } = require('../db');
-const { getUserHandler2 } = require ('../handlers/userHandlerCountries/getUserHandler2');
-const { getUserHandlerId2 } = require ('../handlers/userHandlerCountries/getUserHandlerId2');
+const { getUserHandler2, getUserHandlerId2 } = require('../handlers/UserHandlerCountries');
+
 
 const router = Router();
 

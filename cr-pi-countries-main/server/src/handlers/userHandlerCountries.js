@@ -18,7 +18,7 @@ const getUserHandler2 = async (req, res) => {
 
 const getUserHandlerId2 = async (req, res, next) => {
     const { id } = req.params;
-    let countries
+      //let countries
 
     try {
         if (id.length > 1) {
